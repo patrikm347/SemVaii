@@ -12,7 +12,7 @@ body {
     height: 2em;
 }
 
-/*NAV BAR*/
+/*NAVBAR*/
 .navbar {
     font-size: 1.2em;
     box-shadow: 0 .5em .5em rgba(8, 8, 8, .2);
@@ -34,56 +34,6 @@ body {
     padding: 0 1em;
     font-weight: bold;
     letter-spacing: .2em;
-}
-
-/*SERVICES*/
-.services {
-    /*margin: 2em 0;*/
-    background-image: url("images/services_background.jpg");
-    background-position: center;
-    height: 45em;
-}
-
-h1.services-heading {
-    padding: 2em;
-    text-align: center;
-    font-weight: bold;
-    color: black;
-}
-
-.service-bg {
-    /*color: rgb(248, 248, 248);*/
-    background-color: rgba(10, 10, 10, .4);
-    border: 1px solid black;
-    border-radius: 8px;
-    height: 10em;
-    margin: auto;
-    margin-bottom: 3em;
-}
-
-@media screen and (max-width: 992px) {
-    .services {
-      height: 60em;
-    }
-
-    .service-bg {
-        height: 9em;
-    }
-}
-
-@media screen and (max-width: 440px) {
-    .services {
-      height: 64em;
-    }
-
-    .service-bg {
-        height: 9em;
-    }
-}
-
-.service-bg h4 {
-    padding-top: .4em;
-    /*font-size: 1.5em;*/
 }
 
 /*FOOTER*/
