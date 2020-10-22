@@ -3,39 +3,6 @@ body {
     color: rgb(248, 248, 248);
 }
 
-/*TOP BAR*/
-.top-div {
-    text-align: right;
-    background-color: rgb(96, 200, 96);
-    /*color: rgb(248, 248, 248);*/
-    font-size: 1.3em;
-    height: 2em;
-}
-
-/*NAV BAR*/
-.navbar {
-    font-size: 1.2em;
-    box-shadow: 0 .5em .5em rgba(8, 8, 8, .2);
-
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
-
-.navbar-brand img {
-    height: 3.8em;
-}
-
-.nav-link:hover, .nav-link.active {
-    color: rgb(96, 188, 216) !important;
-}
-
-.nav-item {
-    padding: 0 1em;
-    font-weight: bold;
-    letter-spacing: .2em;
-}
-
 /*SERVICES*/
 .services {
     /*margin: 2em 0;*/
@@ -63,7 +30,7 @@ h1.services-heading {
 
 @media screen and (max-width: 992px) {
     .services {
-      height: 60em;
+      height: 62em;
     }
 
     .service-bg {
@@ -86,23 +53,3 @@ h1.services-heading {
     /*font-size: 1.5em;*/
 }
 
-/*FOOTER*/
-footer {
-    background-color: rgb(96, 200, 96);
-    /*color: rgb(248, 248, 248);*/
-}
-
-.site-footer {
-    text-align: center;
-    padding-top: 2em;
-    margin: auto;
-}
-
-.fa-facebook-square, .fa-twitter-square, .fa-instagram-square {
-    color: rgb(248, 248, 248);
-}
-
-ul.social-media li {
-    display: inline;
-    margin: 0 .5em;
-}
